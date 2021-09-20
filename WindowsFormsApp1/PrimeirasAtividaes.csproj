@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5CF9523B-844A-4803-9EEE-7510A1E48EA6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>primeiro</RootNamespace>
+    <AssemblyName>Projeto Inicial</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A3SalarioComissão.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A3SalarioComissão.Designer.cs">
+      <DependentUpon>A3SalarioComissão.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A5CalculoNumerosIguais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A5CalculoNumerosIguais.Designer.cs">
+      <DependentUpon>A5CalculoNumerosIguais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A6ProdutoeDesconto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A6ProdutoeDesconto.Designer.cs">
+      <DependentUpon>A6ProdutoeDesconto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A7SalarioMaisPorHora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A7SalarioMaisPorHora.Designer.cs">
+      <DependentUpon>A7SalarioMaisPorHora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A8De0AteDigitado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A8De0AteDigitado.Designer.cs">
+      <DependentUpon>A8De0AteDigitado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A9ImprimirNumerosPares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A9ImprimirNumerosPares.Designer.cs">
+      <DependentUpon>A9ImprimirNumerosPares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="B10_Imprimir0a45.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B10_Imprimir0a45.Designer.cs">
+      <DependentUpon>B10_Imprimir0a45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="B11_Imprimir10numeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B11_Imprimir10numeros.Designer.cs">
+      <DependentUpon>B11_Imprimir10numeros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="B12_NumerosABaixoDaMedia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B12_NumerosABaixoDaMedia.Designer.cs">
+      <DependentUpon>B12_NumerosABaixoDaMedia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="B13_MaiorNumeroEPares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B13_MaiorNumeroEPares.Designer.cs">
+      <DependentUpon>B13_MaiorNumeroEPares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarAluno.Designer.cs">
+      <DependentUpon>CadastrarAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A4ConferirNumeroMaior.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A4ConferirNumeroMaior.Designer.cs">
+      <DependentUpon>A4ConferirNumeroMaior.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A2RaizPotencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A2RaizPotencia.Designer.cs">
+      <DependentUpon>A2RaizPotencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A1Temperatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A1Temperatura.Designer.cs">
+      <DependentUpon>A1Temperatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DesafioVotacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesafioVotacao.Designer.cs">
+      <DependentUpon>DesafioVotacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExibirNome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExibirNome.Designer.cs">
+      <DependentUpon>ExibirNome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PodeVotar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PodeVotar.Designer.cs">
+      <DependentUpon>PodeVotar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaiorValorEntreDoisNumeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaiorValorEntreDoisNumeros.Designer.cs">
+      <DependentUpon>MaiorValorEntreDoisNumeros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrecoMaca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrecoMaca.Designer.cs">
+      <DependentUpon>PrecoMaca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalcularMedia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcularMedia.Designer.cs">
+      <DependentUpon>CalcularMedia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalcularValorMulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcularValorMulta.Designer.cs">
+      <DependentUpon>CalcularValorMulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JogoDeFutebol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JogoDeFutebol.Designer.cs">
+      <DependentUpon>JogoDeFutebol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SORTEIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SORTEIO.Designer.cs">
+      <DependentUpon>SORTEIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerificarTriangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificarTriangulo.Designer.cs">
+      <DependentUpon>VerificarTriangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrocarVariaveis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrocarVariaveis.Designer.cs">
+      <DependentUpon>TrocarVariaveis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="A3SalarioComissão.resx">
+      <DependentUpon>A3SalarioComissão.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A5CalculoNumerosIguais.resx">
+      <DependentUpon>A5CalculoNumerosIguais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A6ProdutoeDesconto.resx">
+      <DependentUpon>A6ProdutoeDesconto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A7SalarioMaisPorHora.resx">
+      <DependentUpon>A7SalarioMaisPorHora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A8De0AteDigitado.resx">
+      <DependentUpon>A8De0AteDigitado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A9ImprimirNumerosPares.resx">
+      <DependentUpon>A9ImprimirNumerosPares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B10_Imprimir0a45.resx">
+      <DependentUpon>B10_Imprimir0a45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B11_Imprimir10numeros.resx">
+      <DependentUpon>B11_Imprimir10numeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B12_NumerosABaixoDaMedia.resx">
+      <DependentUpon>B12_NumerosABaixoDaMedia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B13_MaiorNumeroEPares.resx">
+      <DependentUpon>B13_MaiorNumeroEPares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarAluno.resx">
+      <DependentUpon>CadastrarAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A4ConferirNumeroMaior.resx">
+      <DependentUpon>A4ConferirNumeroMaior.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A2RaizPotencia.resx">
+      <DependentUpon>A2RaizPotencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A1Temperatura.resx">
+      <DependentUpon>A1Temperatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesafioVotacao.resx">
+      <DependentUpon>DesafioVotacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExibirNome.resx">
+      <DependentUpon>ExibirNome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PodeVotar.resx">
+      <DependentUpon>PodeVotar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaiorValorEntreDoisNumeros.resx">
+      <DependentUpon>MaiorValorEntreDoisNumeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrecoMaca.resx">
+      <DependentUpon>PrecoMaca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalcularMedia.resx">
+      <DependentUpon>CalcularMedia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalcularValorMulta.resx">
+      <DependentUpon>CalcularValorMulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JogoDeFutebol.resx">
+      <DependentUpon>JogoDeFutebol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SORTEIO.resx">
+      <DependentUpon>SORTEIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificarTriangulo.resx">
+      <DependentUpon>VerificarTriangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrocarVariaveis.resx">
+      <DependentUpon>TrocarVariaveis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

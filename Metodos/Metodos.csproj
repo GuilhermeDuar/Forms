@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DB0FC191-373B-41BE-B276-92600C5147FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Metodos</RootNamespace>
+    <AssemblyName>Metodos</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalcularMedia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcularMedia.Designer.cs">
+      <DependentUpon>CalcularMedia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompraDesconto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompraDesconto.Designer.cs">
+      <DependentUpon>CompraDesconto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hotel.Designer.cs">
+      <DependentUpon>Hotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImprimirSomentePares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImprimirSomentePares.Designer.cs">
+      <DependentUpon>ImprimirSomentePares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaiorNumeroDaLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaiorNumeroDaLista.Designer.cs">
+      <DependentUpon>MaiorNumeroDaLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maças.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maças.Designer.cs">
+      <DependentUpon>Maças.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumerosABaixoDaMedia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumerosABaixoDaMedia.Designer.cs">
+      <DependentUpon>NumerosABaixoDaMedia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcurarNomeEmLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcurarNomeEmLista.Designer.cs">
+      <DependentUpon>ProcurarNomeEmLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="TickCinema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TickCinema.Designer.cs">
+      <DependentUpon>TickCinema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Titulação.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Titulação.Designer.cs">
+      <DependentUpon>Titulação.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrianguloCirculoQuadrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrianguloCirculoQuadrado.Designer.cs">
+      <DependentUpon>TrianguloCirculoQuadrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerificarTriangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificarTriangulo.Designer.cs">
+      <DependentUpon>VerificarTriangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Voto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Voto.Designer.cs">
+      <DependentUpon>Voto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CalcularMedia.resx">
+      <DependentUpon>CalcularMedia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompraDesconto.resx">
+      <DependentUpon>CompraDesconto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotel.resx">
+      <DependentUpon>Hotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImprimirSomentePares.resx">
+      <DependentUpon>ImprimirSomentePares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaiorNumeroDaLista.resx">
+      <DependentUpon>MaiorNumeroDaLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maças.resx">
+      <DependentUpon>Maças.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumerosABaixoDaMedia.resx">
+      <DependentUpon>NumerosABaixoDaMedia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcurarNomeEmLista.resx">
+      <DependentUpon>ProcurarNomeEmLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TickCinema.resx">
+      <DependentUpon>TickCinema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Titulação.resx">
+      <DependentUpon>Titulação.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrianguloCirculoQuadrado.resx">
+      <DependentUpon>TrianguloCirculoQuadrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificarTriangulo.resx">
+      <DependentUpon>VerificarTriangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Voto.resx">
+      <DependentUpon>Voto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
